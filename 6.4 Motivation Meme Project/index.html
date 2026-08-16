@@ -1,0 +1,49 @@
+<!-- 
+
+5. Create a div to contain the h1, p and img elements. Adjust the margins so that the image and text are centered on the page. 
+  Hint: You horizontally center a div by giving it a width of 50% and a margin-left of 25%.
+  Hint: Set the image to have a width of 100% so it fills the div. 
+6. Read about the text-transform property on MDN docs to make the h1 uppercase with CSS.
+  https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform 
+-->
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivation Meme</title>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="preconnect">
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        font-family: 'Libre Baskerville', serif;
+      }
+      .container {
+        margin-top: 50px;
+        width: 50%;
+        margin-left: 25%;
+      }
+      img {
+        width: 100%;
+        border: 5px solid white;
+      }
+      h1 {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 3em;
+      }
+      p {
+        text-align: center;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="./assets/images/daenerys.jpeg" alt="Motivational Image">
+      <h1>That Special Moment</h1>
+      <p>when you find perfect avocado at the supermarket</p>
+    </div>
+  </body>
+  </html>
