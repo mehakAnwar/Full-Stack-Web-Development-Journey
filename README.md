@@ -1,30 +1,37 @@
- 🚀 Full-Stack Web Development Journey
+# 🚀 Full-Stack Web Development Journey
 
-This repository documents my journey of learning **full-stack web development** through daily practice, challenges, and projects.
+Welcome to my **Full-Stack Web Development Journey**! 👋
 
-I'm building everything step by step — starting from the fundamentals of HTML and CSS and progressing toward JavaScript and eventually full-stack development.
+This repository documents my progress as I learn web development through a combination of **coursework, hands-on practice, coding challenges, experiments, and projects**.
 
-The goal of this repository is to **practice consistently, build projects, track my progress, and improve my development skills over time.**
+I started with the fundamentals of HTML and CSS and have progressed through responsive design, Bootstrap, JavaScript, DOM manipulation, advanced JavaScript, and jQuery. This repository will continue to grow as I move toward backend development and building complete full-stack applications.
+
+> **Learn → Practice → Build → Debug → Improve → Repeat.** 🚀
 
 ---
 
-## 📚 Learning Progress
+## 🧭 Learning Roadmap
 
 ### 🟠 HTML
 
-* Heading Elements
-* Paragraph Elements
+Completed the fundamentals of building and structuring web pages.
+
+* HTML Document Structure
+* Heading & Paragraph Elements
 * Void Elements
 * Lists
 * Nesting & Indentation
 * Anchor Elements
 * Image Elements
 * File Paths
-* Webpages
-* HTML Portfolio
-* Practice Projects
+* Multiple Webpages
+* HTML Forms & Elements
+* Basic Accessibility Concepts
+* HTML Projects
 
 ### 🔵 CSS
+
+Learned how to style, structure, and make websites responsive.
 
 * Adding CSS
 * CSS Selectors
@@ -33,61 +40,108 @@ The goal of this repository is to **practice consistently, build projects, track
 * Box Model
 * CSS Cascade
 * Combining Selectors
-* Positioning
+* CSS Positioning
 * Display
 * Float
 * Responsive Design
 * Media Queries
 * Flexbox
 * Flex Direction
-* Flexbox Projects
+* Flexbox Layouts
 * CSS Grid
 * Grid Sizing
 * Grid Placement
+* Responsive Layouts
 * Web Design Projects
 
 ### 🟣 Bootstrap
 
+Learned how to use Bootstrap to create responsive and reusable interfaces.
+
 * Bootstrap Introduction
+* Bootstrap Grid System
 * Bootstrap Components
-* Responsive layouts and components
+* Utility Classes
+* Responsive Layouts
+* Navbar
+* Buttons
+* Cards
+* Forms
+* Responsive UI Design
 
 ### 🟡 JavaScript
 
-Currently learning and practicing JavaScript through exercises, challenges, and projects.
+Completed JavaScript fundamentals and advanced concepts through practical exercises, challenges, and projects.
 
-* JavaScript Fundamentals
+* Variables & Data Types
+* Operators
+* Conditional Statements
+* Loops
+* Functions
+* Arrays & Objects
 * DOM Manipulation
+* Event Listeners
+* Event Handling
+* Higher-Order Functions
+* Advanced JavaScript Concepts
 * Interactive Web Pages
 * JavaScript Challenges
-* Project-based Practice
+* Project-Based Practice
+
+### 🟢 jQuery
+
+Completed fundamental jQuery concepts and practiced using jQuery to manipulate and create interactive web pages.
+
+* Selecting Elements
+* Modifying Elements
+* Adding Elements
+* Removing Elements
+* Manipulating HTML & CSS
+* jQuery Methods
+* Event Listeners
+* Event Handling
+* Animations
+* DOM Manipulation
+* Interactive Web Pages
 
 ---
 
-## 🛠️ Projects
+## 🛠️ Projects & Challenges
 
-Some of the projects and challenges included in this repository:
+Throughout the journey, I've built and practiced with various projects and challenges, including:
+
+### HTML
 
 * 🎬 Movie Ranking Project
 * 🎂 Birthday Invite Project
 * 🌐 HTML Portfolio Project
+
+### CSS
+
 * 🎨 Color Vocabulary Project
 * 😂 Motivation Meme Project
 * 🚩 CSS Flag Project
 * 💼 Web Design Agency Project
 * 💰 Flexbox Pricing Table
-* 🏢 Mondrian Project
+* 🎨 Mondrian Project
 * 🐶 TinDog Project
+* 📱 Responsive Web Design Projects
+
+### JavaScript
+
 * 🎲 Dicee Challenge
 * 🥁 Drum Kit
 * 🖱️ DOM Challenges
-* And many more practice exercises
+* ⚡ Interactive JavaScript Exercises
+* 🧩 JavaScript Challenges
+
+More projects and challenges will be added as I progress.
 
 ---
 
-## 📈 My Progress
+## 📈 Progress Tracker
 
-This repository will continue to grow as I progress through my web development course.
+### Frontend
 
 * [x] HTML Fundamentals
 * [x] CSS Fundamentals
@@ -95,73 +149,139 @@ This repository will continue to grow as I progress through my web development c
 * [x] Flexbox
 * [x] CSS Grid
 * [x] Bootstrap
-* [ ] JavaScript
-* [ ] DOM & Advanced JavaScript
-* [ ] Backend Development
+* [x] JavaScript Fundamentals
+* [x] Advanced JavaScript
+* [x] DOM Manipulation
+* [x] Event Handling
+* [x] jQuery Fundamentals
+* [x] jQuery DOM Manipulation
+* [x] jQuery Events & Animations
+* [ ] APIs
+
+### Backend
+
 * [ ] Node.js
 * [ ] Express.js
+* [ ] REST APIs
 * [ ] Databases
-* [ ] APIs
-* [ ] Authentication
-* [ ] Full-Stack Projects
+* [ ] SQL
+* [ ] MongoDB
+* [ ] Authentication & Authorization
+* [ ] Server-Side Development
+
+### Full Stack
+
+* [ ] Connecting Frontend & Backend
+* [ ] Full-Stack Applications
+* [ ] Deployment
+* [ ] Production-Ready Projects
+
+### Open Source
+
+* [ ] First Open-Source Contribution
+* [ ] First Merged Pull Request
+* [ ] Regular Open-Source Contributions
+
+---
+
+## 📂 Repository Structure
+
+The repository follows the progression of my course. Each lesson, exercise, challenge, and project is kept in its own folder so that my learning process remains organized and easy to follow.
+
+```text
+Full-Stack-Web-Development-Journey/
+│
+├── HTML/
+│   ├── Lessons
+│   ├── Exercises
+│   └── Projects
+│
+├── CSS/
+│   ├── Lessons
+│   ├── Responsive Design
+│   ├── Flexbox
+│   ├── CSS Grid
+│   └── Projects
+│
+├── Bootstrap/
+│   ├── Introduction
+│   └── Components
+│
+├── JavaScript/
+│   ├── Fundamentals
+│   ├── DOM Challenges
+│   ├── JavaScript Challenges
+│   └── Projects
+│
+├── jQuery/
+│   ├── Selecting
+│   ├── Adding
+│   ├── Removing
+│   ├── Modifying
+│   ├── Animations
+│   └── Event Listeners
+│
+└── Future Full-Stack Topics/
+```
+
+The actual folder structure follows the lessons and challenges as they are completed, allowing the repository to evolve naturally with my learning.
 
 ---
 
 ## 🎯 Goals
 
+My goals throughout this journey are to:
+
 * Build a strong foundation in web development
+* Understand concepts through hands-on implementation
 * Practice coding consistently
-* Create projects instead of only following tutorials
+* Strengthen problem-solving and debugging skills
+* Build projects rather than only following tutorials
 * Learn modern frontend and backend technologies
-* Improve problem-solving and debugging skills
-* Build real-world full-stack applications
+* Develop real-world full-stack applications
+* Learn Git and GitHub through regular use
 * Contribute to open-source projects
+* Build a strong developer portfolio
 * Become a confident full-stack web developer
-
----
-
-## 📁 Repository Structure
-
-The repository follows the progression of my course:
-
-```text
-Full-Stack-Web-Development-Journey/
-│
-├── HTML & HTML Projects
-│
-├── CSS & CSS Projects
-│
-├── Responsive Design
-│
-├── Flexbox
-│
-├── CSS Grid
-│
-├── Bootstrap
-│
-├── JavaScript
-│   ├── DOM Challenges
-│   ├── Dicee Challenge
-│   ├── Drum Kit
-│   └── Other JavaScript Practice
-│
-└── Future Full-Stack Topics
-```
-
-The folders are organized according to the lessons and challenges I complete, making it easy to track my progress from the fundamentals to more advanced concepts.
 
 ---
 
 ## 🔄 Continuous Learning
 
-This is an **ongoing repository**.
+This is an **ongoing repository**, not a finished project.
 
 New lessons, challenges, experiments, and projects will be added as I continue learning.
 
-> **Learn → Practice → Build → Improve → Repeat.** 🚀
+The repository reflects both the concepts I'm studying and the practical work I complete along the way.
 
 ---
 
-### ⭐ Follow the Journey
+## 💻 Tech Stack
 
-This repository is a record of my progress as I work toward becoming a **full-stack web developer**.
+**Currently Learning / Practicing:**
+
+HTML • CSS • Bootstrap • JavaScript • jQuery • Git • GitHub
+
+**Coming Next:**
+
+APIs • Node.js • Express.js • Databases • Authentication • Full-Stack Development
+
+---
+
+## 📊 Learning Philosophy
+
+I believe the best way to learn development is to **write code, break things, debug them, and build again.**
+
+Every folder in this repository represents a step in that process.
+
+> **Consistency over perfection. Progress over comparison.** 💙
+
+---
+
+## ⭐ Follow My Journey
+
+This repository is a record of my progress from learning the fundamentals of web development to building complete full-stack applications.
+
+If you're also learning web development, feel free to explore the projects, challenges, and experiments here.
+
+**The journey is still in progress. 🚀**
