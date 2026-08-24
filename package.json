@@ -1,0 +1,21 @@
+{
+  "name": "web_dev_bootcamp",
+  "version": "1.0.0",
+  "description": "Welcome to my **Full-Stack Web Development Journey**! 👋",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehakAnwar/Full-Stack-Web-Development-Journey.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/mehakAnwar/Full-Stack-Web-Development-Journey/issues"
+  },
+  "homepage": "https://github.com/mehakAnwar/Full-Stack-Web-Development-Journey#readme"
+}
