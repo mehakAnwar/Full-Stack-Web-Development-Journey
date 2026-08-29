@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBlog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/">My<span>Blog</span> </a>
+            <a href="/create" class="btn create-btn"> + Create Post</a>
+        </div>
+    </nav>
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <p class="hero-label">✦ YOUR SPACE TO WRITE</p>
+                <h1>Ideas worth<br><span>sharing.</span></h1>
+                <p class="hero-description">Write down your thoughts, share your stories, and let your ideas live beyond the moment.</p>
+            </div>
+        </div>
+    </header>
+    <main class="container posts-section">
+        <div class="section-heading">
+            <div>
+                <p class="section-label">EXPLORE</p>
+                <h2>Latest Stories</h2>
+            </div>
+            <% if (posts.length > 0) { %>
+                <span class="post-count">
+                    <%= posts.length %> <%= posts.length === 1 ? 'Post' : 'Posts' %>
+                </span>
+            <% } %>
+        </div>
+        <div class="row g-4">
+            <% if (posts.length === 0) { %>
+                <div class="col-12">
+                    <div class="empty-state">
+                        <div class="empty-icon">✦</div>
+                        <h3>Your story starts here.</h3>
+                        <p>You haven't published anything yet.Write your first story and make it yours.</p>
+                        <a href="/create" class="btn create-btn">Write a Post →</a>
+                    </div>
+                </div>
+            <% } else { %>
+                <% posts.forEach((post, index) => { %>
+                    <div class="col-md-6 col-lg-4">
+                        <article class="blog-card">
+                            <div class="card-number">
+                                <%= String(index + 1).padStart(2, '0') %>
+                            </div>
+                            <div class="blog-card-content">
+                                <h3><%= post.title %></h3>
+                                <p><%= post.content %></p>
+                            </div>
+                            <div class="card-actions">
+                                <a href="/edit/<%= post.id %>"class="edit-btn">Edit</a>
+                                <form action="/delete/<%= post.id %>" method="POST">
+                                    <button type="submit" class="delete-btn">Delete</button>
+                                </form>
+                            </div>
+                        </article>
+                    </div>
+                <% }) %>
+            <% } %>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <a class="navbar-brand" href="/">My<span>Blog</span></a>
+                <p> Write. Share. Inspire.</p>
+                <small>© 2026 MyBlog</small>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
